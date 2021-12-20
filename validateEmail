@@ -1,0 +1,4 @@
+function validateEmail(email) {
+  let pattern = /^[\w-\.]+@[\w-]+\.[a-z]{2,4}$/i;
+  return pattern.test(email);
+}
